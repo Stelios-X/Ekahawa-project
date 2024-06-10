@@ -4,6 +4,8 @@
  */
 
 /*
+Leetcode 1
+Two Sum
 *The solution has a time complexity of O(n) where n is the number of elements in the array. this is due to the fact that we only iterae through the array once.
 Each time we perform 2 ops, checking for the complement and adding the element to the array
 The space complexity is O(n),this is because in the worst-case scenario, we will add all the elements in the array to the map. This means that the map could 
