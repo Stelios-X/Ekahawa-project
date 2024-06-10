@@ -15,10 +15,13 @@ public class Ekahawa {
     public static void main(String[] args) {
         System.out.println("Hello World!");
         
-        int[] nums = {3,5,7,4,8,2};
+        int[] nums = {7,1,5,3,6,4};
         int target = 6;
         
-        Vuyanzi vuyanzi = new Vuyanzi();
-        System.out.println(Arrays.toString(vuyanzi.twoSumSolution(nums, target)));
+        //Vuyanzi vuyanzi = new Vuyanzi();
+        //System.out.println(Arrays.toString(vuyanzi.twoSumSolution(nums, target)));
+        
+        StockBuySell stocks = new StockBuySell();
+        System.out.println(stocks.maxProfit(nums));
     }
 }
