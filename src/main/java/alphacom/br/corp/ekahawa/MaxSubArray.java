@@ -2,6 +2,22 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
+/*
+Leetcode 53
+
+Given:
+
+An integer array nums of arbitrary length.
+Task:
+
+Find the contiguous subarray (a subarray is a continuous part of an array) within the input array that has the largest sum.
+Return the sum of this subarray.
+
+Time Complexity: O(n), where n is the length of the input array.
+Space Complexity: O(1), as we only use constant extra space.
+*/
+
+
 package alphacom.br.corp.ekahawa;
 
 /**
