@@ -26,7 +26,7 @@ public class PrdXceptSelf
         int n = nums.length;
         int[] answer  = new int[n];//Use ans as the prefix product array
         
-        //Initilize answer array with 1
+        //Initilize answer array with 1             
         Arrays.fill(answer, 1);
         
         //Calculate left products products
