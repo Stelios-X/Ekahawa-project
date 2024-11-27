@@ -8,6 +8,14 @@ package alphacom.br.corp.ekahawa;
  *
  * @author brandon
  */
+
+/*
+Leetcode 268. Missing Number
+The Time Complexity O(n), the algorithm requires one pass through the array to compute the sum so the time conplexity is linear 
+Space complexity is O(1), no additional space is required that grows the input size; only a few variables are used
+
+*/
+
 public class MissingNumber 
 {
     public int missingNumberSol(int[] nums)
