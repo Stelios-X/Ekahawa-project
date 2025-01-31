@@ -6,7 +6,7 @@ package alphacom.br.corp.ekahawa;
 
 /**
  *Leetcode 190. Reverse Bits problem
- * The solution reverses the bits of a 32-bit unsigned integer.
+ * The solution reverses the bits of a 32-bit unsigned integer. The provided integer is reversed
  * Time complexity is O(1) The function processes exactly 32 bits so it has a constant time complexity
  * Space complexity is O(1) The function uses only a few integer values so the space complexity is constant. 
  * 
