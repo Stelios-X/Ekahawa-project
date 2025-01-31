@@ -9,6 +9,11 @@ package alphacom.br.corp.ekahawa;
  * @author brandon
  * 
  * Leetcode number 70 Climbing stairs problem.
+ * The problem focuses on the number of ways a flight of stairs can be climbed if one is taking either one step at a time or 2. 
+ * 
+ * Time complexity O(n)
+ * Space complexityO(1) - Instead of maintaining an array to store all previous results, we only keep track of the last two computed values, which allows us to achieve this.
+ * 
  */
 public class ClimbingStairs 
 {
