@@ -8,6 +8,17 @@ package alphacom.br.corp.ekahawa;
  *
  * @author brandon
  */
+
+/*
+*
+Time complexity O(N×M)
+Space complexity O(N)
+
+Problem:
+Given an array coins represinting denominations of coins and an integer amount. The goal is to determine the least 
+amount of coins needed to make the amount.
+*/
+
 import java.util.Arrays;
 
 public class CoinChange 
