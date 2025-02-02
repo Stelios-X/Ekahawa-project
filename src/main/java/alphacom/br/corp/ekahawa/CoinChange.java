@@ -8,9 +8,11 @@ package alphacom.br.corp.ekahawa;
  *
  * @author brandon
  */
+import java.util.Arrays;
+
 public class CoinChange 
 {
-    public int coinChangeSol()
+    public int coinChangeSol(int[] coins, int amount)
     {
         //Step1 : Create a DP array initialized to maximum value
         int[] dp = new int[amount + 1];
@@ -18,5 +20,14 @@ public class CoinChange
         dp[0] = 0; //Base case: 0 coins needed to make amount 0
         
         //Step 2: Build the DP table;
+        for(int coin : coins) //Iterate for each coin denomination
+        {
+            for(int i = coin; i <= amount; i++ ) //Start from 'coint' to 'amount'
+            {
+                dp[i] = Math.min(dp[i], 1 + dp[i-coin]);
+            }
+        }
+        //Step 3: Return the result
+        return dp[amount] == amount + 1 ? -1 : dp[amount];
     }
 }
