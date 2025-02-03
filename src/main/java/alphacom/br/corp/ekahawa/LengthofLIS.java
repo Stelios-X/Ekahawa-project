@@ -26,7 +26,16 @@ public class LengthofLIS
             //If the element is not found, binarySearch returns (-(insertion point) - 1)
             if(index < 0)
             {
-                index = -(index + 1); //Convert to the correct insertionpoint
+                index = -(index + 1); //Convert to the correct insertion point
+            }
+            
+            //Update the tails array place the current number at the found index
+            tails[index] = num;
+            
+            //If the insertion point is at the end, increase the length
+            if(index == len)
+            {
+                len++;
             }
             
         }
