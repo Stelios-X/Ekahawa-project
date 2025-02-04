@@ -9,6 +9,14 @@ package alphacom.br.corp.ekahawa;
  * @author brandon
  */
 
+
+/*
+*
+Time complexity - O(n log n) each element is processed in O(log n) time due to the binary search
+
+Space complexity - O(n) the tails array stores up to n elements in the worst case
+*/
+
 import java.util.Arrays;
         
 public class LengthofLIS 
